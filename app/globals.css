@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: hsl(210 37% 15%);
+  --foreground: hsl(0 0% 95%);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  background-image: 
+    radial-gradient(circle at 20% 50%, hsl(170 70% 50% / 0.1) 0%, transparent 50%),
+    radial-gradient(circle at 80% 20%, hsl(210 100% 50% / 0.1) 0%, transparent 50%),
+    radial-gradient(circle at 40% 80%, hsl(280 70% 50% / 0.1) 0%, transparent 50%);
+  min-height: 100vh;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}
+
+.glass-card {
+  @apply bg-surface/80 backdrop-blur-sm border border-white/10;
+}
+
+.gradient-text {
+  @apply bg-gradient-to-r from-accent to-primary bg-clip-text text-transparent;
+}
+
+.btn-primary {
+  @apply bg-primary hover:bg-primary/90 text-white font-medium py-2 px-4 rounded-lg transition-colors duration-200;
+}
+
+.btn-secondary {
+  @apply bg-surface hover:bg-surface/80 text-text-primary font-medium py-2 px-4 rounded-lg border border-white/10 transition-colors duration-200;
+}
