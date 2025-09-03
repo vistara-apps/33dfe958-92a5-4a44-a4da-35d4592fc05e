@@ -23,7 +23,8 @@
     "postcss": "^8",
     "recharts": "^2.8.0",
     "lucide-react": "^0.263.1",
-    "axios": "^1.6.0"
+    "axios": "^1.6.0",
+    "pino-pretty": "^10.2.3"
   },
   "devDependencies": {
     "@types/node": "^20",
