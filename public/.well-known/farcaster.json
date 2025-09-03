@@ -1,0 +1,30 @@
+{
+  "accountAssociation": {
+    "header": "",
+    "payload": "",
+    "signature": ""
+  },
+  "frame": {
+    "version": "1",
+    "name": "AssetFlow",
+    "subtitle": "Built with Zara",
+    "description": "AssetFlow is a Base Mini App built with Zara.",
+    "iconUrl": "https://0co.to/images/zara-2.png",
+    "homeUrl": "https://33dfe95892a54a44a4da35d4592fc05e-nscp-fbjsm42zx-vistara.vercel.app",
+    "splashImageUrl": "https://33dfe95892a54a44a4da35d4592fc05e-nscp-fbjsm42zx-vistara.vercel.app/splash.png",
+    "splashBackgroundColor": "#000000",
+    "heroImageUrl": "https://33dfe95892a54a44a4da35d4592fc05e-nscp-fbjsm42zx-vistara.vercel.app/image.png",
+    "tagline": "AssetFlow",
+    "screenshotUrls": [
+      "https://33dfe95892a54a44a4da35d4592fc05e-nscp-fbjsm42zx-vistara.vercel.app/screenshot.png",
+      "https://33dfe95892a54a44a4da35d4592fc05e-nscp-fbjsm42zx-vistara.vercel.app/screenshot.png"
+    ],
+    "primaryCategory": "social",
+    "tags": [
+      "base",
+      "miniapp",
+      "onchainkit"
+    ],
+    "webhookUrl": "https://33dfe95892a54a44a4da35d4592fc05e-nscp-fbjsm42zx-vistara.vercel.app/api/webhook"
+  }
+}
